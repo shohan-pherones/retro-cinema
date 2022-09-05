@@ -31,7 +31,120 @@ const movie4 = {
     "https://www.torrentbd.com/posters/grT28qkCjf9qbW421hzHFAYY21106646.jpg",
 };
 
-const moviesArr = [movie1, movie2, movie3, movie4];
+const movie5 = {
+  title: "Fall",
+  year: 2022,
+  ticketPrice: 320,
+  posterURL:
+    "https://www.torrentbd.com/posters/Enz19xyc88dsEAMYF5jFwgYY15325794.jpg",
+};
+
+const movie6 = {
+  title: "House of the Dragon",
+  year: 2022,
+  ticketPrice: 380,
+  posterURL:
+    "https://www.torrentbd.com/posters/oUw3f9JJagihLRybyY7P5wYY11198330.jpg",
+};
+
+const movie7 = {
+  title: "The Sandman",
+  year: 2022,
+  ticketPrice: 380,
+  posterURL:
+    "https://www.torrentbd.com/posters/BD8VXOgCq4d4P2vBeiG3qAYY1751634.jpg",
+};
+
+const movie8 = {
+  title: "Purple Hearts",
+  year: 2022,
+  ticketPrice: 350,
+  posterURL:
+    "https://www.torrentbd.com/posters/1tOHYiUmdR4eeA1KEw8XdwYY4614584.jpg",
+};
+
+const movie9 = {
+  title: "The Princess",
+  year: 2022,
+  ticketPrice: 320,
+  posterURL:
+    "https://www.torrentbd.com/posters/ARNOJg3bwASSfJ7cCveoKAYY13406136.jpg",
+};
+
+const movie10 = {
+  title: "Into the Deep",
+  year: 2022,
+  ticketPrice: 320,
+  posterURL:
+    "https://www.torrentbd.com/posters/zZnz5m2SkIqmwjuRjgwMCAYY11005128.jpg",
+};
+
+const movie11 = {
+  title: "Little Ukraine",
+  year: 2022,
+  ticketPrice: 320,
+  posterURL:
+    "https://www.torrentbd.com/posters/2QuXs4NbZNZ5XhjOJlyv2QYY11511518.jpg",
+};
+
+const movie12 = {
+  title: "Prey",
+  year: 2022,
+  ticketPrice: 350,
+  posterURL:
+    "https://www.torrentbd.com/posters/DegyyZ5ZNP7LoOiVvnoN1AYY11866324.jpg",
+};
+
+const movie13 = {
+  title: "The Moderator",
+  year: 2022,
+  ticketPrice: 330,
+  posterURL:
+    "https://www.torrentbd.com/posters/e2xU0RqLZ4LVuoD3Nj4XHwYY12810902.jpg",
+};
+
+const movie14 = {
+  title: "Irul",
+  year: 2021,
+  ticketPrice: 350,
+  posterURL:
+    "https://www.torrentbd.com/posters/p4a9JExC9FnZuxqHZ7326wYY13103212.jpg",
+};
+
+const movie15 = {
+  title: "Vikram",
+  year: 2022,
+  ticketPrice: 380,
+  posterURL:
+    "https://www.torrentbd.com/posters/idJqYus6zjdGAoERtKkLAAYY9179430.jpg",
+};
+
+const movie16 = {
+  title: "Thor: Ragnarok",
+  year: 2017,
+  ticketPrice: 375,
+  posterURL:
+    "https://www.torrentbd.com/posters/qhuAOl4wo1zZWqhQYSKb4wYY3501632.jpg",
+};
+
+const moviesArr = [
+  movie1,
+  movie2,
+  movie3,
+  movie4,
+  movie5,
+  movie6,
+  movie7,
+  movie8,
+  movie9,
+  movie10,
+  movie11,
+  movie12,
+  movie13,
+  movie14,
+  movie15,
+  movie16,
+];
 
 // Elements
 const moviesEl = document.querySelector(".movies");
