@@ -3,8 +3,3 @@
 body {
   font-family: "Overpass", sans-serif;
 }
-
-.backdrop {
-  backdrop-filter: blur(10);
-  -webkit-backdrop-filter: blur(10);
-}
