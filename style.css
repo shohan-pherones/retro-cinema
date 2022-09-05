@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Overpass", sans-serif;
+}
+
+.backdrop {
+  backdrop-filter: blur(10);
+  -webkit-backdrop-filter: blur(10);
+}
