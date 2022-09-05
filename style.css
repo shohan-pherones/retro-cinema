@@ -4,6 +4,15 @@ body {
   font-family: "Overpass", sans-serif;
 }
 
+.backdrop {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  backdrop-filter: blur(10px);
+}
+
+.slider {
+  margin-top: 56px;
+}
+
 .movies {
   gap: 2rem !important;
 }
