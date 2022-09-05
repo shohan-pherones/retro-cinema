@@ -32,3 +32,23 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.modal-total {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+.modal-total .cross {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
