@@ -3,3 +3,22 @@
 body {
   font-family: "Overpass", sans-serif;
 }
+
+.movies {
+  gap: 2rem !important;
+}
+
+.movie {
+  height: 500px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.movie-poster {
+  width: 100%;
+  height: 375px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
