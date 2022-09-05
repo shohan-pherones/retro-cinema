@@ -40,19 +40,19 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">In Cinemas</a>
+                <a class="nav-link" href="#in-cinemas">In Cinemas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Trending Now</a>
+                <a class="nav-link" href="#trending-now">Trending Now</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Support</a>
+                <a class="nav-link" href="#support">Support</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#support">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sign in 🤡</a>
+                <a class="nav-link" href="#support">Sign in 🤡</a>
               </li>
             </ul>
           </div>
@@ -119,7 +119,7 @@
     </header>
     <main>
       <!-- In cinemas -->
-      <div class="container mt-5">
+      <div class="container mt-5" id="in-cinemas">
         <h2 class="text-center fw-bold">In Cinemas Now</h2>
         <div class="row row-cols-1 row-cols-md-2">
           <div class="col overflow-hidden">
@@ -156,7 +156,7 @@
         </div>
       </div>
       <!-- Trending now -->
-      <div class="container mt-5">
+      <div class="container mt-5" id="trending-now">
         <h2 class="text-center fw-bold">Trending Now</h2>
         <div
           class="movies row row-cols-1 row-cols-md-2 row-cols-lg-4 justify-content-center"
@@ -164,8 +164,52 @@
       </div>
       <!-- Modal -->
       <div class="container modal-total shadow-lg border-0 rounded-3 p-5"></div>
+      <!-- Support -->
+      <div class="container mt-5" id="support">
+        <h2 class="text-center fw-bold">Support</h2>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Full Name</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Sarah Parker"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="hello@gmail.com"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Example textarea</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+            placeholder="Write something about us"
+          ></textarea>
+        </div>
+        <div class="mb-3">
+          <button class="btn btn-dark">Submit</button>
+        </div>
+      </div>
     </main>
-    <footer></footer>
+    <footer>
+      <p class="text-center p-5">
+        &copy; 2022, Retro Cinema. All rights reserved.
+      </p>
+    </footer>
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
