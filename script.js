@@ -127,6 +127,118 @@ const movie16 = {
     "https://www.torrentbd.com/posters/qhuAOl4wo1zZWqhQYSKb4wYY3501632.jpg",
 };
 
+const movie17 = {
+  title: "John Wick: Chapter 3",
+  year: 2019,
+  ticketPrice: 375,
+  posterURL:
+    "https://www.torrentbd.com/posters/LdJpOpljc1qQLd8fc0dxfAYY6146586.jpg",
+};
+
+const movie18 = {
+  title: "Crawdads Sing",
+  year: 2022,
+  ticketPrice: 350,
+  posterURL:
+    "https://www.torrentbd.com/posters/KK1tKGTKPWrBBViiSbrPtgYY9411972.jpg",
+};
+
+const movie19 = {
+  title: "Burial",
+  year: 2022,
+  ticketPrice: 350,
+  posterURL:
+    "https://www.torrentbd.com/posters/YMeJB8Ah2uUKRZhG9CTy9QYY13063384.jpg",
+};
+
+const movie20 = {
+  title: "Nobody",
+  year: 2021,
+  ticketPrice: 380,
+  posterURL:
+    "https://www.torrentbd.com/posters/WHuJmhQieBauN1MT3VopMQYY7888964.jpg",
+};
+
+const movie21 = {
+  title: "The Perfect Nanny",
+  year: 2001,
+  ticketPrice: 320,
+  posterURL:
+    "https://www.torrentbd.com/posters/XXqi6ZEjN0gooMZ3l3fDGgYY0228711.jpg",
+};
+
+const movie22 = {
+  title: "Mad Max: Fury Road",
+  year: 2015,
+  ticketPrice: 340,
+  posterURL:
+    "https://www.torrentbd.com/posters/DEm1RNqcmcBUlSRD86zEhwYY1392190.jpg",
+};
+
+const movie23 = {
+  title: "Sinister 2",
+  year: 2015,
+  ticketPrice: 350,
+  posterURL:
+    "https://www.torrentbd.com/posters/eNNc9qZiXY5c1emd9DkD1QYY2752772.jpg",
+};
+
+const movie24 = {
+  title: "[REC] 3: Genesis",
+  year: 2012,
+  ticketPrice: 320,
+  posterURL:
+    "https://www.torrentbd.com/posters/ICpuyH9T9Bn9NPH2SwHGYgYY1649444.jpg",
+};
+
+const movie25 = {
+  title: "Seoul Vibe",
+  year: 2022,
+  ticketPrice: 340,
+  posterURL:
+    "https://www.torrentbd.com/posters/c8MAKiGa3IpeelqAuKI2xgYY13611770.jpg",
+};
+
+const movie26 = {
+  title: "Oculus",
+  year: 2013,
+  ticketPrice: 340,
+  posterURL:
+    "https://www.torrentbd.com/posters/wfJCmxaJwDe6dKPNdoQuRgYY2388715.jpg",
+};
+
+const movie27 = {
+  title: "The Northman",
+  year: 2022,
+  ticketPrice: 370,
+  posterURL:
+    "https://www.torrentbd.com/posters/v8mUR8Hrr2d2BzrdBNQe0AYY11138512.jpg",
+};
+
+const movie28 = {
+  title: "Spider's Web",
+  year: 2018,
+  ticketPrice: 320,
+  posterURL:
+    "https://www.torrentbd.com/posters/xxZx0jZ8WDzETApwCWFnZAYY5177088.jpg",
+};
+
+const movie29 = {
+  title: "Greyhound",
+  year: 2020,
+  ticketPrice: 350,
+  posterURL:
+    "https://www.torrentbd.com/posters/47zQxEZwoDzvGYZ0Sxzn9gYY6048922.jpg",
+};
+
+const movie30 = {
+  title: "Batman & Robin",
+  year: 1997,
+  ticketPrice: 330,
+  posterURL:
+    "https://www.torrentbd.com/posters/UXxTzdnTlbI5JZWZSLsR9AYY0118688.jpg",
+};
+
 const moviesArr = [
   movie1,
   movie2,
@@ -144,6 +256,20 @@ const moviesArr = [
   movie14,
   movie15,
   movie16,
+  movie17,
+  movie18,
+  movie19,
+  movie20,
+  movie21,
+  movie22,
+  movie23,
+  movie24,
+  movie25,
+  movie26,
+  movie27,
+  movie28,
+  movie29,
+  movie30,
 ];
 
 // Display movies
