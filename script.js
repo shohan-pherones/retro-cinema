@@ -253,11 +253,11 @@ const moviesArr = [
       "https://www.torrentbd.com/posters/6TxRWSmE3HIDvnGZ0pS1ZAYY21237030.jpg",
   },
   {
-    title: "Double Threat",
+    title: "Carma",
     year: 2022,
     ticketPrice: 350,
     posterURL:
-      "https://www.torrentbd.com/posters/HZe50IJgjguAXnpzPhv3JAYY13302660.jpg",
+      "https://www.torrentbd.com/posters/CjLfdksflPNI4aqNFf5SFAYY14992864.jpg",
   },
   {
     title: "The Moderator",
@@ -328,21 +328,16 @@ function displayMovies() {
 
     movie.innerHTML = `
         <div class="movie-poster">
-            <img
-              src="${moviesArr[i].posterURL}"
-              class="card-img-top"
-            />
+            <img src="${moviesArr[i].posterURL}" class="card-img-top"/>
         </div>
-        <div class="card-body movie-details">
+        <div class="card-body">
             <h5 class="card-title fw-bold">
               ${moviesArr[i].title} (${moviesArr[i].year})
             </h5>
-            <h5 class="fw-bold text-danger"><span class="ticket-price">${moviesArr[i].ticketPrice}৳</span>
-            </h5>
+            <h5 class="fw-bold text-danger">${moviesArr[i].ticketPrice}৳</h5>
             <button class="btn btn-dark fw-bold book-ticket">Book Ticket</button>
         </div>
-  `;
-
+      `;
     moviesEl.append(movie);
   }
 }
@@ -363,14 +358,14 @@ function displayTotal() {
           const VAT = (price * 5) / 100;
           const subTotal = price + VAT;
 
+          // Show modal
           modalWindow.style.opacity = 1;
           modalWindow.style.visibility = "visible";
-
           modalWindow.innerHTML = `
           <span class="cross">❌</span>
           <h2 class="fw-bold">${title} (${year})</h2>
-          <h5><strong>Price: </strong>${price}৳</h5>
-          <h5><strong>VAT: </strong>${VAT}৳</h5>
+          <h5><strong>Price:</strong> ${price}৳</h5>
+          <h5><strong>VAT:</strong> ${VAT}৳</h5>
           <hr>
           <h4 class="text-danger fw-bold mt-3">Subtotal: ${subTotal}৳</h4>
           <button class="btn btn-danger fw-bold mt-3 buy-now">Buy Now</button>
