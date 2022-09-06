@@ -330,11 +330,12 @@ function displayTotal() {
 
           modalWindow.innerHTML = `
           <span class="cross">❌</span>
-          <h2 class="fw-bold">Movie Title: ${title} (${year})</h2>
+          <h2 class="fw-bold">${title} (${year})</h2>
           <h5><strong>Price:</strong> BDT. ${price}</h5>
           <h5><strong>VAT:</strong> BDT. ${VAT}</h5>
+          <hr>
           <h4 class="text-danger fw-bold mt-3">Subtotal: BDT. ${subTotal}</h4>
-          <button class="btn btn-info fw-bold mt-3 buy-now">Buy Now</button>
+          <button class="btn btn-danger fw-bold mt-3 buy-now">Buy Now</button>
           `;
 
           // Hide modal
